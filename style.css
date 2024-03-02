@@ -788,19 +788,12 @@ header .header-search .bx-search-alt-2{
             align-items: center;
             margin: auto;
         }
-        header .header-right{
-            width:60%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-        }
         header .head-right{
             width: 70%;
             margin: auto;
             justify-content: center;
             align-items: center;
-            margin-right:60px;
+            margin-right:65px;
             margin-top: 30px;
             margin-bottom: 40px;
         }
@@ -893,7 +886,11 @@ header .header-search .bx-search-alt-2{
             width: 90%;
             margin: auto;
         }
+     header .header-search {
+        width:80%;
+        margin: auto;
     }
+}
      @media screen and (min-width:481px) and (max-width:780px) {
         nav{
             justify-content: space-between;
