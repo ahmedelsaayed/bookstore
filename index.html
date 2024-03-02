@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lemon&family=Montserrat:ital,wght@0,200;0,300;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Noto+Sans+Indic+Siyaq+Numbers&family=Nunito:ital,wght@0,600;0,700;1,500;1,600&family=Poppins:wght@200;300;400;500&family=Protest+Riot&family=Roboto:wght@500&family=Rubik:ital,wght@0,400;0,500;0,800;0,900;1,400;1,500;1,800;1,900&display=swap" rel="stylesheet">
+<!-- icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bod">
+    <!-- nav bar -->
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <i class='bx bxs-book-bookmark'></i>
+            <h2>Book Shop</h2>
+        </div>
+        <ul class="nav-middle">
+            <li><a class="a-home" href="#home">Home</a></li>
+            <li><a class="" href="#products">featured</a></li>
+            <li><a class="" href="#discount">Discount</a></li>
+            <li><a class="" href="#subscripe">New Books</a></li>
+            <li><a class="" href="#Testimonails">Testimonails</a></li>
+        </ul>
+        <div class="nav-right">
+            <i class='bx bx-search-alt-2'></i>
+           <i class='bx bxs-user'></i>
+           <a href="#cart"> <i class='bx bxs-cart-alt'><p class="counter">0</p></i></a>
+            <i class='bx bxs-moon' ></i>
+            <i class='bx bxs-sun'></i>
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home">
+        <!-- header-left -->
+        <div class="header-left">
+            <h1>Browse & Select</h1>
+            <h1>Books Shop</h1>
+            <p>Find the best e-books from your favorite writers, explore hundreds of books with all possible categories, take advantage of the 50% discount and much more.</p>
+            <a href="">Explore Now</a>
+        </div>
+        <div class="head-right">
+            <div class="head-parent swiper">
+             <div class="head-p swiper-wrapper">
+                <img src="./img/home-book-1.png"  class="swiper-slide"  alt="" srcset="">
+                <img src="./img/home-book-2.png"  class="swiper-slide" alt="" srcset="">
+                <img src="./img/home-book-3.png"  class="swiper-slide" alt="" srcset="">
+                <img src="./img/home-book-4.png"  class="swiper-slide" alt="" srcset="">
+             </div>
+            </div>
+         </div>
+            <div class="header-search">
+                <i class='bx bx-x'></i>
+                <div class="sc">
+                <input type="text" placeholder="What Are Your Look For...">
+                <i class='bx bx-search-alt-2'></i>
+            </div>
+            </div>
+            <div class="header-login">
+                <i class='bx bx-x'></i>
+                <h1>login</h1>
+                <input type="email" placeholder="Your Email">
+                <input type="password" placeholder="password">
+                <button>Login</button>
+                <p>create a new <button class="create">account</button> </p>
+            </div>
+            <div class="header-signup">
+                <i class='bx bx-x'></i>
+                <h1>sign up</h1>
+                <input type="text" placeholder="Username">
+                <input type="number" placeholder="phone-number">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <button class="si">sign up</button>
+                <p>i have an <button class="sign">account</button></p>
+            </div>
+    </header>
+    <!-- services -->
+    <section  class="services">
+        <h1 id="products"> our Services</h1>
+        <div  class="proprites">
+            <div  class="pro">
+                <i class='bx bxs-truck'></i>
+                <h3>Free Shipping</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, molestias. </p>
+            </div>
+            <div class="pro">
+                <i class='bx bx-key' ></i>
+                <h3>privacy policy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, soluta!</p>
+            </div>
+            <div class="pro">
+                <i class='bx bx-phone-call'></i>              
+                  <h3>call center</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, harum!</p>
+            </div>
+        </div>
+        <h1>products</h1>
+        <div  class="projects">
+            <!-- <div class="project">
+                <img src="./img/book-1.png" alt="">
+                <h3>Lord && Kings</h3>
+                <p>Price : 35$</p>
+                <button class="add">Add To crat</button>
+            </div> -->
+        </div>
+    </section>
+    <!-- discount -->
+    <section id="discount" class="discount">
+        <div class="discount-left">
+            <h1>Up To 50% Discount</h1>
+            <p>Take advantage of the discount days we have for you, buy books from your favorite writers, the more you buy, the more discounts we have for you.</p>
+            <a href="http://">Shop Now</a>
+        </div>
+        <div class="discount-right">
+            <img class="im1" src="./img/discount-book-1.png" alt="" srcset="">
+            <img class="im2" src="./img/discount-book-2.png" alt="" srcset="">
+        </div>
+    </section>
+    <!-- subscripe -->
+    <section id="subscripe" class="subscribe">
+        <div class="text">
+        <h1>subscribe to receive</h1>
+        <h1>The Latest update </h1>
+        <input type="email" placeholder="Your Email">
+        <input class="btn" type="button" value="subscribe">
+    </div>
+    </section>
+    <section id="cart" class="cart">
+        <h1>your Cart</h1>
+        <h2 class="total">sa</h2>
+        <div class="cartss">
+            <!-- <div class="product">
+            <img src="./img/book-1.png" alt="" srcset="">
+            <h2></h2>
+            <h3></h3>
+            <button>remove</button>
+        </div> -->
+    </div>
+    </section>
+    <!-- Testimonails -->
+        <section class="testimonails" id="Testimonails">
+            <h2>testimonial</h2>
+            <div class="testimonialss">
+            <div class="testimonail-pa swiper">
+                <div class="testimonial-ch swiper-wrapper">
+                    <div class="testimonial swiper-slide">
+                        <img src="./img/testimonial-perfil-1.png" alt="" srcset="">
+                        <h1>Amera Ahmed</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam facilis eaque deserunt, blanditiis voluptatibus earum nostrum error</p>
+                        <div class="rate">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                    <div class="testimonial swiper-slide">
+                        <img src="./img/pixelcut-export-1700133277908.png" alt="" srcset="">
+                        <h1>Ahmed Elsayed</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam facilis eaque deserunt, blanditiis voluptatibus earum nostrum error</p>
+                        <div class="rate">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                    <div class="testimonial swiper-slide">
+                        <img src="./img/testimonial-perfil-3.png" alt="" srcset="">
+                        <h1>Fatma ibrahim</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam facilis eaque deserunt, blanditiis voluptatibus earum nostrum error</p>
+                        <div class="rate">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <hr>
+        <footer>
+            <div class="about">
+                <h1>about us</h1>
+                <a href="">FAQS</a>
+                <a href="">privacy policy</a>
+                <a href="">terms of services </a>
+            </div>
+            <div class="about">
+                <h1>Compony</h1>
+                <a href="">Blogs</a>
+                <a href="">Community</a>
+                <a href="">Help Center </a>
+            </div>
+            <div class="about">
+                <h1>contact</h1>
+                <a href="">ah01068el@gmail.com</a>
+                <a href="">01068762490</a>
+                <a href="">https://www.facebook.com/</a>
+            </div>
+            <div class="social">
+                <h1>social</h1>
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                <a href=""><i class='bx bxl-telegram'></i> </a>
+            </div>
+        </footer>
+        <center>
+        <p class="foot">&copy; Ahmed Elsayed</p>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
